@@ -1,0 +1,447 @@
+.mainLayout {
+	padding: 0px 120px;
+}
+
+.titleContent {
+	text-align: center;
+	margin: auto;
+	padding: 320px 0px;
+}
+
+.textTitle {
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 57.36px;
+	color: #002d74;
+}
+
+.textDesc {
+	font-size: 24px;
+	line-height: 28.68px;
+	color: #000000;
+	font-weight: 300;
+}
+
+.data {
+	margin: auto;
+	padding-top: 162px;
+	align-items: center;
+	text-align: center;
+}
+
+.historyData {
+	font-size: 64px;
+	padding-top: 22px;
+}
+
+.historyTitle {
+	color: #50bfa5;
+	font-size: 16px;
+	padding-top: 18px;
+}
+
+.products {
+	padding: 224px 0px 0px;
+}
+
+.productSelection {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 600px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.productCard {
+	min-height: 380px;
+	text-align: end;
+	padding: 36px 32px 36px;
+	min-width: 380px;
+	margin: auto;
+	align-items: end;
+}
+
+.productContainer {
+	padding-top: 50px;
+	/* display: flex;
+	flex-direction: row;
+	justify-content: space-between; */
+	padding-right: 20px;
+}
+
+.scrollContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.productOption {
+	min-height: 380px;
+	position: relative;
+}
+
+.scrollable::-webkit-scrollbar {
+	display: none;
+}
+
+.arrowUp {
+	transform: rotateZ(270deg);
+}
+
+.arrowDiagonal {
+	transform: rotateZ(315deg);
+}
+
+.maps {
+	margin: auto;
+	padding-top: 100px;
+	max-width: 1200px;
+}
+
+.mapsInfo {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 57.36px;
+	color: #002d74;
+	background-color: #f1f1f1;
+	padding-left: 28px;
+}
+
+.contactContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+.contactInfo {
+	font-size: 36px;
+	padding-top: 22px;
+	font-weight: 600;
+	line-height: 57.36px;
+	color: #002d74;
+}
+
+@media only screen and (max-width: 1280px) {
+	.mainLayout {
+		padding: 0px 40px;
+	}
+
+	.productCard {
+		min-width: 200px;
+		min-height: 100px;
+	}
+
+	.productOption {
+		min-height: 200px;
+	}
+
+	.scrollContainer {
+		max-width: 700px;
+	}
+
+	.historyData {
+		font-size: 32px;
+	}
+
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 600px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.mapsInfo {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 912px) {
+	.mainLayout {
+		padding: 0px 10px;
+	}
+
+	.productCard {
+		min-width: 200px;
+		min-height: 100px;
+	}
+
+	.productOption {
+		min-height: 200px;
+	}
+
+	.scrollContainer {
+		max-width: 700px;
+	}
+
+	.historyData {
+		font-size: 32px;
+	}
+
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 600px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.mapsInfo {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.mainLayout {
+		padding: 0px 10px;
+	}
+
+	.productCard {
+		min-width: 200px;
+		min-height: 100px;
+	}
+
+	.productOption {
+		min-height: 200px;
+	}
+
+	.scrollContainer {
+		max-width: 680px;
+	}
+
+	.historyData {
+		font-size: 32px;
+	}
+
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 600px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.mapsInfo {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.mainLayout {
+		padding: 0px 10px;
+	}
+
+	.productCard {
+		min-width: 200px;
+		min-height: 100px;
+	}
+
+	.productOption {
+		min-height: 200px;
+	}
+
+	.scrollContainer {
+		max-width: 580px;
+	}
+
+	.historyData {
+		font-size: 32px;
+	}
+
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 400px;
+	}
+	.mapsInfo {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.mainLayout {
+		padding: 0px 10px;
+	}
+
+	.productCard {
+		min-width: 200px;
+		min-height: 100px;
+	}
+
+	.productOption {
+		min-height: 200px;
+	}
+
+	.scrollContainer {
+		max-width: 580px;
+	}
+
+	.historyData {
+		font-size: 32px;
+	}
+
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 400px;
+	}
+	.mapsInfo {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.productOption {
+		min-height: 200px;
+	}
+
+	.scrollContainer {
+		max-width: 420px;
+	}
+	.historyData {
+		font-size: 32px;
+	}
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 300px;
+	}
+	.contactInfo {
+		font-size: 24px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.mapsInfo {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	.productOption {
+		min-height: 200px;
+	}
+	.scrollContainer {
+		max-width: 360px;
+	}
+	.historyData {
+		font-size: 32px;
+	}
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 280px;
+	}
+
+	.contactInfo {
+		font-size: 24px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.mapsInfo {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.productOption {
+		min-height: 200px;
+	}
+	.scrollContainer {
+		max-width: 340px;
+	}
+	.historyData {
+		font-size: 32px;
+	}
+	.historyTitle {
+		font-size: 12px;
+	}
+	.products {
+		padding-top: 60px;
+	}
+	.contactContainer {
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.contactContainer div {
+		min-width: 260px;
+	}
+
+	.contactInfo {
+		font-size: 24px;
+	}
+	.productSelection {
+		padding-top: 40px;
+	}
+	.mapsInfo {
+		font-size: 14px;
+	}
+}
