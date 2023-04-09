@@ -151,7 +151,7 @@ export default function Main() {
 								<div
 									className={styles.historyData}
 									style={{
-										color: `${e.color === "#002D74" && "#FFFFFF"}`,
+										color: `${e.color === "#002D74" ? "#FFFFFF" : "#002D74"}`,
 									}}
 								>
 									{e.value}
