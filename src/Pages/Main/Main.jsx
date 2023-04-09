@@ -200,7 +200,6 @@ export default function Main() {
 										className={styles.scrollable}
 										style={{
 											overflowX: "scroll",
-											maxWidth: "1280px",
 										}}
 									>
 										<div className={styles.scrollContainer}>

@@ -157,10 +157,11 @@
 	}
 	.contactContainer {
 		padding-top: 40px;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.contactContainer div {
-		min-width: 600px;
+		font-size: 30px;
+		min-width: 250px;
 	}
 	.productSelection {
 		padding-top: 40px;
@@ -200,10 +201,11 @@
 	}
 	.contactContainer {
 		padding-top: 40px;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.contactContainer div {
-		min-width: 600px;
+		font-size: 20px;
+		min-width: 180px;
 	}
 	.productSelection {
 		padding-top: 40px;
